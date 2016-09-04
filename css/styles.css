@@ -33,6 +33,7 @@
 .main {
   height: 50%;
   width: 100%;
+  text-align: center;
 }
 .secondary {
   width: 100%;
@@ -43,5 +44,13 @@
 }
 /*Media Queries*/
 @media screen and (min-width: 800px) {
- 
+ .leftcol,
+ .rightcol {
+   display: inline-block;
+   width: 47.5%;
+   height: 100%;
+ }
+ .leftcol p, .leftcol h1 {
+   float: left;
+ }
 }
