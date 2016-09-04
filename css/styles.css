@@ -61,12 +61,16 @@
    width: 32%;
    display: inline-block;
  }
+ .additional-content {
+   text-align: center;
+ }
  .texts, .extra {
   display: inline-block;
   width: 48%;
 }
-.texts {
+.texts p, .extra p, .texts h2, .extra h2 {
   float: left;
+  text-align: left;
 }
 .texts p, .extra p {
   height: 15%;
