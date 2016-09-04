@@ -1,6 +1,6 @@
 /* For testing only */
 
-*:not(body):not(html) {
+/**:not(body):not(html) {
   box-sizing:border-box;
   border:1px dashed #000;
 }
@@ -8,8 +8,11 @@
 .columns {
   min-height: 100px;
 }
-
+*/
 /* End for testing */
+body {
+  background-color: gray;
+}
 .container {
   width: 98%;
   margin: 0 auto;
@@ -18,6 +21,7 @@
    height: 25px;
    display: inline-block;
    width: 25%;
+   background-color: rgba(0, 0, 0, 0.8)
 }
 .nav {
   text-align: center;
