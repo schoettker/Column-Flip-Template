@@ -68,4 +68,7 @@
 .texts {
   float: left;
 }
+.texts p, .extra p {
+  height: 15%;
+}
 }
