@@ -45,6 +45,14 @@
 }
 /*Media Queries*/
 @media screen and (min-width: 800px) {
+  .nav {
+    width: 48%;
+    float: right;
+    margin-top: 0;
+  }
+  .nav ul {
+    margin: 0;
+  }
  .leftcol,
  .rightcol {
    display: inline-block;
