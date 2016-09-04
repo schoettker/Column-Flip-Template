@@ -19,6 +19,12 @@
    display: inline-block;
    width: 25%;
 }
+.nav {
+  text-align: center;
+}
+.nav ul {
+  padding: 0;
+}
 .nav ul li {
   display: inline-block;
   width: 20%;
@@ -34,4 +40,8 @@
 }
 .texts, .extra {
   display: none;
+}
+/*Media Queries*/
+@media screen and (min-width: 800px) {
+ 
 }
