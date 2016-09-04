@@ -73,6 +73,36 @@
   text-align: left;
 }
 .texts p, .extra p {
-  height: 15%;
+  height: 20%;
 }
+.texts h2, .extra h2 {
+  height: 40px;
+}
+.texts * , .extra * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+}
+@media screen and (min-width: 1124px) {
+  .additional-content {
+    width: 66%;
+    display: inline-block;
+  }
+  .gallery {
+    width: 30%;
+    float: left;
+  }
+  .gallery, .texts, .extra {
+    display: inline-block;
+  }
+  .texts, .extra {
+    width: 48%;
+  }
+  .secondary {
+    display: block;
+    width: 100%;
+    height: 20%;
+    margin-top: 40px;
+  }
 }
